@@ -1,1 +1,8 @@
-
+public class Second
+{
+public static void main (String[] args)
+{
+System.out.println ("First Java Application");
+System.out.println (" \n My New and Improved \n \n Java Application \n \n Created by: \n Aditya Sharma ");
+}
+}
