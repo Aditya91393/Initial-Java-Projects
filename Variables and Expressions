@@ -1,1 +1,60 @@
+//**********************************************************
+// Assignment: (Java Introduction activity 5)
+//
+/* Description: (In this program, I created a program to calculate
+and solve some basic arithmetic.This program was my first program
+where I used variables. */
+//
+// Author: (Aditya Sharma)
+//
+// Date Start: (2016-09-21)
+// Date Completed: (2016-09-22)
+//
+// Completion time: (1 hrs)
+//
+// Honor Code: I pledge that this program represents my own
+//   program code. I received help from (enter the names of
+//   others that helped with the assignment; write no one if
+//   you received no help) in designing and debugging my program.
+//*********************************************************
+
+//  A program to add two numbers.
+
+public class VariablesExpressions
+{
+   public static void main (String[] args)
+   {
+    
+      // Step 1 - Declaring variables
+      int numberA;
+      int numberB;
+      int sum;
+      int difference;
+      int product;
+      int quotient;
+      int modulus;
+   
+      // Step 2 - (Input) Assigning values to variables
+      numberA = 18;
+      numberB = 9;
+   
+      // Step 3 - Processing
+      sum = numberA + numberB;
+      difference = numberA - numberB;   // this is an expression
+      product = numberA * numberB;
+      quotient = numberA / numberB;
+      modulus = numberA % numberB;
+      
+      // Step 4 - Output
+      System.out.println ("the sum of " + numberA + " plus " + numberB + " is " + sum);
+      System.out.println ("The difference of " + numberA + " minus " + numberB + " is " + difference);
+      System.out.println ("The product of " + numberA + " times " + numberB + " is " + product);
+      System.out.println ("The quotient of " + numberA + " divided by " + numberB + " is " + quotient);
+      System.out.println ("The remainder of " + numberA + " modulus " + numberB + " is " + modulus);
+      
+   /* When dividing, the system doesn't register decimal places. The whole number before the decimals
+   kick in is the final answer... ALWAYS */
+   
+   } // end main method
+} // end class
 
